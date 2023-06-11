@@ -22,12 +22,13 @@ Modelo: online
 - Entender os comandos `git init`, `git config`, `git status`, `git add`, `git commit`, `git push`, `git log`, `git clone`.
 
 ## Apresentação e contextualização
+[Slides](intro-git-github.pdf)
 
 ## Contrução do conteúdo
 [Roteiro de aula](roteiro.md)
 
 ## Exercícios
-**Exercício obrigatório**: Neste novo repositório, cada aluno vai criar seu próprio documento de referência de comandos do git. Quero que o aluno suba no repositório pelo menos um commit com uma alteração no arquivo que criamos. 
+**Exercício obrigatório**: Neste novo repositório, cada aluno vai criar seu próprio documento de referência de comandos do git. Quero que o aluno suba no repositório pelo menos um commit com uma alteração no arquivo que criamos, listando os comandos aprendidos na aula. 
 
 **Exercício opcional**: Criar e subir no repositório pelo menos mais um arquivo. Sugestões: arquivo README.md, PDF, imagens.
 
