@@ -45,4 +45,4 @@ git config --global init.defaultBranch main
 - Rodar o comando `git log` para mostrar o commit feito
 ![git log](img/img-08.png)
 
-### Clonando o primeiro repositório (15min)
+### Criando o primeiro repositório remoto (15min)

@@ -25,6 +25,7 @@ Modelo: online
 ## Apresentação e contextualização
 
 ## Contrução do conteúdo
+[Roteiro de aula](roteiro.md)
 
 ## Exercícios
 
