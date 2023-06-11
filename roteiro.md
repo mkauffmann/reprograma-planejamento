@@ -15,7 +15,7 @@ Exemplos:
 - Explicar a importância do Github para a colaboração em equipe, assunto que será aprofundado nas próximas aulas
 
 
-### Instalação e configuração local do Git (20min)
+### Instalação e configuração local do Git (30min)
 Garantir que todos os alunos já tenham criado uma conta do Github previamente e então compartilhar a tela e fazer a configuração inicial do git localmente junto com os alunos.
 
 -   Baixar e rodar o [instalador](https://git-scm.com/downloads)
@@ -45,4 +45,28 @@ git config --global init.defaultBranch main
 - Rodar o comando `git log` para mostrar o commit feito
 ![git log](img/img-08.png)
 
-### Criando o primeiro repositório remoto (15min)
+### Criando o primeiro repositório remoto (20min)
+- Logar no Github e criar um novo repositório público
+![Tela de novo repositório](img/img-09.png)
+- Cada aluno vai pegar a url de seu próprio repositório
+![URL do repositório](img/img-10.png)
+- Na pasta do projeto, adicionar o repositório remoto com o comando
+```
+git remote add origin <<URL DO ALUNO>>
+```
+- Testar executando o comando `git remote`
+![URL do repositório](img/img-11.png)
+- Subir o repositório local executando o comando `git push origin main` e recarregar a página do Github para conferir
+![Primeiro push](img/img-12.png)
+![Repositório](img/img-13.png)
+
+### Primeiro clone (15min)
+- Fornecer um repositório com um projeto simples em HTML e CSS que será usado nas aulas durante a semana e clonar via HTTPS rodando o comando
+```
+git clone <<URL DO REPOSITORIO>>
+```
+![Repositório teste](img/img-14.png)
+![Clone](img/img-15.png)
+
+### Encerramento (20min)
+Recapitular o que vimos, explicar o exercício de fixação e abrir espaço para discussão e dúvidas. 
