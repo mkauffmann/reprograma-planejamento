@@ -1,7 +1,7 @@
 # Atividade de Planejamento de Aula
 Planejamento da primeira aula de um módulo de uma semana sobre Git/Github. 
 
-Duração: 3h
+Duração: 1h
 
 Modelo: online
 
@@ -19,7 +19,8 @@ Modelo: online
 - Entender a diferença entre Git e Github;
 - Como instalar e configurar o Git local;
 - Como criar criar um repositório e subir um projeto para o Github;
-- Entender os comandos `git init`, `git config`, `git status`, `git add`, `git commit`, `git push`, `git log`, `git clone`.
+- Como clonar um repositório;
+- Utilizar e entender os comandos `git init`, `git config`, `git status`, `git add`, `git commit`, `git push`, `git log`, `git clone`.
 
 ## Apresentação e contextualização
 [Slides](intro-git-github.pdf)
@@ -28,9 +29,11 @@ Modelo: online
 [Roteiro de aula](roteiro.md)
 
 ## Exercícios
-**Exercício obrigatório**: Neste novo repositório, cada aluno vai criar seu próprio documento de referência de comandos do git. Quero que o aluno suba no repositório pelo menos um commit com uma alteração no arquivo que criamos, listando os comandos aprendidos na aula. 
+**Exercício obrigatório**: No repositório criado em aula por cada um, o aluno vai criar seu próprio documento de referência de comandos do git. O aluno deve subir no repositório pelo menos um commit com uma alteração no arquivo que criamos, listando os comandos aprendidos na aula. 
 
-**Exercício opcional**: Criar e subir no repositório pelo menos mais um arquivo. Sugestões: arquivo README.md, PDF, imagens.
+**Exercício opcional**: Criar e subir no próprio repositório pelo menos mais um arquivo. Sugestões: arquivo README.md, PDF, imagens.
+
+**Exercício opcional**: Clonar um repositório público do seu interesse. Sugestões: [2048](https://github.com/gabrielecirulli/2048), [BrasilAPI](https://github.com/BrasilAPI/BrasilAPI), [Universidade Livre - Ciência da computação](https://github.com/Universidade-Livre/ciencia-da-computacao), [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 
 ## Materiais de referência
 - [Git Reference](https://git-scm.com/docs): Documentação oficial do Git

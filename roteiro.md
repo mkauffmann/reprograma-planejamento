@@ -1,6 +1,6 @@
 # Roteiro de aula
 
-### Introdução (30min)
+### Introdução (5min)
 Puxar discussão com alunos sobre a importância do controle de versão e métodos que eles usam em outros contextos.
 Exemplos: 
 -  renomear arquivo de trabalho acadêmico (trabalho_VERSAOFINAL.doc)
@@ -8,14 +8,14 @@ Exemplos:
 -  compactar e renomear uma pasta de projeto
 -  salvar a pasta do projeto em diferentes pen-drives
 
-### Apresentar Git e Github (30min)
+### Apresentar Git e Github (15min)
 - Exposição sobre o que é o Git
 - Como surgiu o versionamento no contexto do desenvolvimento de software (exemplos de outros sistemas de versionamento)
 - Apresentar o Github e definir o que é um repositório remoto (Exemplo: backup na nuvem dos saves de playstation ou nintendo switch; pasta do google drive com seus documentos de trabalhos acadêmicos)
 - Explicar a importância do Github para a colaboração em equipe, assunto que será aprofundado nas próximas aulas
 
 
-### Instalação e configuração local do Git (30min)
+### Instalação e configuração local do Git (10min)
 Garantir que todos os alunos já tenham criado uma conta do Github previamente e então compartilhar a tela e fazer a configuração inicial do git localmente junto com os alunos.
 
 -   Baixar e rodar o [instalador](https://git-scm.com/downloads)
@@ -30,22 +30,22 @@ git config --global init.defaultBranch main
 ```
 - Testar a instalação abindo o terminal em qualquer pasta e digitando `git` ![Menu inicial do Git](img/img-01.png)
   
-### Criando o primeiro projeto local (15min)
+### Criando o primeiro projeto local (5min)
 - Criar uma nova pasta
 - Navegar pelo terminal para dentro da pasta e rodar o comando `git status` ![Mensagem not a git repository](img/img-02.png)
 - Rodar o comando `git init` ![Initialized empty Git repository](img/img-03.png)
 - Rodar nomavente o comando `git status` e notar a diferença ![On branch main No commits yet](img/img-04.png)
 
-### Primeiro commit (15min)
+### Primeiro commit (5min)
 - Nesta mesma pasta, criar um arquivo .txt vazio e rodar o comando `git status`. Notar que o arquivo aparece como não-rastreado pelo git ![Untracked files](img/img-05.png)
-- Rodar o comando `git add .` e `git status` explicar o que é a staging area
+- Rodar o comando `git add <<NOME DO ARQUIVO>>` e `git status`. Explicar o que é a staging area, onde o git define quais arquivos devem entrar em um commit.
 ![Staging area](img/img-06.png)
-- Rodar o comando `git commit -m "primeiro commit"` e explicar sobre mensagens de commit
+- Rodar o comando `git commit -m "primeiro commit"` e explicar sobre padrões de mensagens de commit (explicativas, utilizando verbos)
 ![Primeiro commit](img/img-07.png)
 - Rodar o comando `git log` para mostrar o commit feito
 ![git log](img/img-08.png)
 
-### Criando o primeiro repositório remoto (20min)
+### Criando o primeiro repositório remoto (10min)
 - Logar no Github e criar um novo repositório público
 ![Tela de novo repositório](img/img-09.png)
 - Cada aluno vai pegar a url de seu próprio repositório
@@ -60,7 +60,7 @@ git remote add origin <<URL DO ALUNO>>
 ![Primeiro push](img/img-12.png)
 ![Repositório](img/img-13.png)
 
-### Primeiro clone (15min)
+### Primeiro clone (5min)
 - Fornecer um repositório com um projeto simples em HTML e CSS que será usado nas aulas durante a semana e clonar via HTTPS rodando o comando
 ```
 git clone <<URL DO REPOSITORIO>>
@@ -68,5 +68,5 @@ git clone <<URL DO REPOSITORIO>>
 ![Repositório teste](img/img-14.png)
 ![Clone](img/img-15.png)
 
-### Encerramento (20min)
+### Encerramento (10min)
 Recapitular o que vimos, explicar o exercício de fixação e abrir espaço para discussão e dúvidas. 
