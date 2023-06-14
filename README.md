@@ -1,7 +1,7 @@
 # Atividade de Planejamento de Aula
 Planejamento da primeira aula de um módulo de uma semana sobre Git/Github. 
 
-Duração: 1h
+Duração: 1h30min
 
 Modelo: online
 
